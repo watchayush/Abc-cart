@@ -1,0 +1,25 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 2px 5px 20px 2px rgba(37, 37, 37, 0.5);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 2px 5px 20px 2px rgba(0, 0, 0, 0.5);
+  /* transition-delay: 2s; */
+  transition-timing-function: linear ease-in-out;
+  /* box-shadow: 0 0 3px #515151; */
+}
+.slider_desc {
+  color: rgb(75, 73, 73);
+  margin: 0.5px;
+  margin-left: 8px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+}
+.slider_desc:hover {
+  color: rgb(59, 58, 58);
+}
